@@ -1,88 +1,4 @@
-/* =================================================================== 
- * Ceevee Main Stylesheet
- * Template Ver. 2.0.0
- * 01-03-2021
- * ------------------------------------------------------------------
- *
- * TOC:
- * # settings and variables
- *      ## fonts
- *      ## colors
- *      ## vertical spacing and typescale
- *      ## grid variables
- * # normalize
- * # basic/base setup styles
- *      ## media
- *      ## typography resets
- *      ## links
- *      ## inputs
- * # Grid v3.0.0
- *      ## medium screen devices
- *      ## tablets
- *      ## mobile devices
- *      ## small mobile devices <= 400px
- * # block grids
- *      ## block grids - medium screen devices
- *      ## block grids - tablets
- *      ## block grids - mobile devices
- *      ## block grids - small mobile devices <= 400px
- * # MISC 
- * # custom grid, block grid STACK breakpoints
- * # base style overrides 
- *      ## links
- * # typography & general theme styles
- *      ## Lists
- *      ## responsive video container
- *      ## floated image
- *      ## tables
- *      ## spacing
- * # preloader
- *      ## page loaded
- * # forms 
- *      ## Style Placeholder Text
- * # buttons 
- * # additional components
- *      ## skillbars
- *      ## alert box
- *      ## pagination 
- * # common and reusable styles
- *      ## animation stuff 
- *      ## MailtoUI style overrides
- * # site header
- *      ## header nav
- *      ## mobile menu toggle 
- * # hero
- *      ## hero content
- *      ## hero social
- *      ## hero scrolldown
- *      ## animate intro content
- * # resume 
- *      ## resume block
- * # portfolio
- *      ## portfolio list
- *      ## modal popup
- * # CTA
- * # testimonials
- *      ## swiper style overrides
- *      ## testimonial slider 
- * # contact
- *      ## contact block
- * # footer
- *      ## footer social
- *      ## copyright
- *      ## go top
- *
- * ------------------------------------------------------------------ */
 
-
-/* ===================================================================
- * # settings and variables
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## fonts
- * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
 :root {
     --font-1: "Inter", sans-serif;
@@ -3449,7 +3365,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.jpg);
+    background-image: url(../images/wallpaper_nasa_site.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3512,7 +3428,7 @@ input[type="button"].btn--primary:focus {
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 1.667;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.795);
     margin-top: var(--vspace-0_5);
     margin-right: auto;
     margin-left: auto;
